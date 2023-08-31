@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="./project/css/style.css">
 </head>
 
-<body>
+<body class="relative">
 
   <div class="wrapper overflow-x-hidden">
     <header>
@@ -38,8 +38,8 @@
             class="flex w-[120vw] py-[15px] bg-white absolute pl-[25%] xl:pl-[5%] duration-1000 transition-all xll:p-0 left-[-500%] top-[130px] md:top-[90px] xs:top-[80px] xll:static xll:w-[564px] items-center nav__list">
             <ul
               class="grid grid-cols-4 xll:flex xll:flex-row flex-col xll:items-center justify-center gap-[30px] font-bold text-[#274C5B]">
-              <li class="hover:opacity-75 opacity-100 duration-200"><a href="">Home</a></li>
-              <li class="hover:opacity-75 opacity-100 duration-200"><a href="">About</a></li>
+              <li class="hover:opacity-75 opacity-100 duration-200"><a href="./index.html">Home</a></li>
+              <li class="hover:opacity-75 opacity-100 duration-200"><a href="./about.html">About</a></li>
               <li class="flex dropdown group gap-[2px]">Pages <i class="ri-arrow-down-s-line mt-[2px] font-[600]"></i>
                 <div
                   class="group-hover:flex hidden dropdown__content text-[14px] flex-col gap-[5px] md:gap-[20px] xll:gap-[10px]">
@@ -346,30 +346,62 @@
               </div></button></a></div>
       </div>
     </section>
-    <!-- <section class="relative">
-      <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-          <div class="container swiper-slide container1 absolute left-[50%] top-[50%]">
-            <div class="flex items-center text-[#274C5B] text-[36px] font-bold pb-[40px] flex-col">
-              <p class="text-[24px] text-[#7EB693] font-[400]">Testimonial </p>
+    <section class="relative py-[50px]">
+      <div class="">
+        <img src="./project/image/122.png" class="w-full absolute h-[1000px] object-cover left-0 top-0 z-[10]" alt="">
+        <div class="">
+          <div class="container p-0 relative flex flex-col items-center z-[1000]">
+            <div class="flex text-center items-center text-[#274C5B] text-[28px] sm:text-[36px] font-bold pb-[10px] md:pb-[40px] flex-col">
+              <p class="text-[20px] sm:text-[24px] text-[#7EB693] font-[400]">Testimonial </p>
               <h1>What Our Customer Saying?</h1>
             </div>
-            <div class="pt-[60px] flex items-center flex-col text-[#525C60] ">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="pt-[60px] w-full flex mr-[-20px] xs:m-0 swiper-slide items-center flex-col text-[#525C60] ">
               <div class="rounded-[100%] w-[115px] h-[115px] mb-[20px]">
                 <img src="./project/image/lo.jpg" class="w-full h-[115px] rounded-[100%] object-contain" alt="">
               </div>
               <p class="text-[#FFA858] pb-[25px] flex text-[18px] gap-[2px]"><i class="ri-star-fill"></i><i
                   class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
                   class="ri-star-fill"></i></p>
-              <p class="text-[18px] w-[70%] text-center pb-[20px]">Simply dummy text of the printing and typesetting
+              <p class="text-[12px] xs:text-[15px] md:text-[18px] w-[70%] text-center pb-[20px]">Simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.
               </p>
+              <p class="text-[16px] xs:text-[18px] md:text-[22px] font-bold text-[#274C5B]">Sara Taylor</p>
+              <p class="text-center pb-[5px] md:pb-[19px] text-[12px] md:text-[15px]">Consumer</p>
+                            <div class="flex gap-[5.5px]">
+                <div class="w-1 h-1 hover:bg-[#7EB693] bg-[#C4C4C4] rounded-[100%] duration-150"></div>
+                <div class="w-1 h-1 hover:bg-[#7EB693] bg-[#C4C4C4] rounded-[100%] duration-150"></div>
+                <div class="w-1 h-1 hover:bg-[#7EB693] bg-[#C4C4C4] rounded-[100%] duration-150"></div>
+              </div>
+            </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+            
+            <div class="flex items-center gap-[31px] duration-200 lg:gap-[62px] pt-[51px] lg:pt-[102px] mt-[51px] lg:mt-[102px] border-t-[#E0E0E0] border-t-[2px] justify-center w-[70%] ">
+              <div class="card scale-75 md:scale-100 flex flex-col hover:bg-[#274C5B] hover:text-white items-center justify-center p-[80px] bg-[#F1F1F1] rounded-[100%] duration-200 hover:border-[#7EB693] border-white border-[3px] w-[100px] h-[100px] text-[#274C5B]">
+                <p class=" text-[40px] font-bold">100%</p>
+                <p class="text-[18px] mt-[-10px]">Organic</p>
+              </div>
+              <div class="card scale-75 md:scale-100 flex flex-col hover:bg-[#274C5B] hover:text-white items-center justify-center p-[80px] bg-[#F1F1F1] rounded-[100%] duration-200 hover:border-[#7EB693] border-white border-[3px] w-[100px] h-[100px] text-[#274C5B]">
+                <p class=" text-[40px] font-bold">100%</p>
+                <p class="text-[18px] mt-[-10px]">Organic</p>
+              </div>
+              <div class="card scale-75 md:scale-100 hidden lg:flex flex-col hover:bg-[#274C5B] hover:text-white items-center justify-center p-[80px] bg-[#F1F1F1] rounded-[100%] duration-200 hover:border-[#7EB693] border-white border-[3px] w-[100px] h-[100px] text-[#274C5B]">
+                <p class=" text-[40px] font-bold">100%</p>
+                <p class="text-[18px] mt-[-10px]">Organic</p>
+              </div>
+              <div class="card scale-75 md:scale-100 hidden lg:flex flex-col hover:bg-[#274C5B] hover:text-white items-center justify-center p-[80px] bg-[#F1F1F1] rounded-[100%] duration-200 hover:border-[#7EB693] border-white border-[3px] w-[100px] h-[100px] text-[#274C5B]">
+                <p class=" text-[40px] font-bold">100%</p>
+                <p class="text-[18px] mt-[-10px]">Organic</p>
+              </div>
             </div>
           </div>
         </div>
-        <div class="swiper-pagination"></div>
+        <div class="swiper-pagination w-[100px] block h-[100px] left-0 top-0 z-[10000]"></div>
       </div>
-    </section> -->
+    </section>
     <section class="pt-[80px] pb-[20px] md:pt-[200px] bg-[#274C5B] md:pb-[200px]">
       <div class="container">
         <div class="flex flex-wrap items-center pb-[50px] justify-between">
@@ -604,7 +636,6 @@
   </div>
 </body>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script src="./project/plugins/tailwind/flowbite.js"></script>
 <script>
   AOS.init();
 </script>
@@ -612,6 +643,7 @@
   var swiper = new Swiper(".mySwiper", {
     pagination: {
       el: ".swiper-pagination",
+      dynamicBullets: true,
     },
   });
 </script>
