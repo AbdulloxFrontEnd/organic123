@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="./project/plugins/tailwind/tailwind.js"></script>
+    <script src="./project/plugins/tailwind/tailwind.config.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./project/css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <nav class="py-[30px] md:py-[30px] z-[1000] relative bg-white w-full left-0">
+              <div
+                class="container flex relative  items-start xs:items-center justify-center lg:justify-evenly xl:justify-around xll:justify-start flex-col xs:flex-row gap-[10px] xs:gap-[30px] xll:gap-[110px]">
+                <div
+                  class="inline absolute top-[20%] xs:top-[18%] md:top-[20%] right-[5%] xs:left-[5%] text-[30px] duration-200 nav__btn xll:hidden hover:text-[#7EB693]">
+                  <i class="ri-menu-line"></i>
+                </div>
+                <a href="./index.html"
+                  class="flex ml-[-20px] xs:m-0 items-center scale-75 md:scale-100 duration-200 justify-center gap-[9px] w-[200px]">
+                  <div class="!w-[36px] flex items-center justify-center">
+                    <img src="./project/image/Log.png" class="w-full object-contain h-[54px]" alt="">
+                  </div>
+                  <p class="text-[36px] text-[#274C5B] font-[700]">Organick</p>
+                </a>
+                <div
+                  class="flex w-[120vw] py-[15px] bg-white absolute pl-[25%] xl:pl-[5%] duration-1000 transition-all xll:p-0 left-[-500%] top-[130px] md:top-[90px] xs:top-[80px] xll:static xll:w-[564px] items-center nav__list">
+                  <ul
+                    class="grid grid-cols-4 xll:flex xll:flex-row flex-col xll:items-center justify-center gap-[30px] font-bold text-[#274C5B]">
+                    <li class="hover:opacity-75 opacity-100 duration-200"><a href="">Home</a></li>
+                    <li class="hover:opacity-75 opacity-100 duration-200"><a href="">About</a></li>
+                    <li class="flex dropdown group gap-[2px]">Pages <i class="ri-arrow-down-s-line mt-[2px] font-[600]"></i>
+                      <div
+                        class="group-hover:flex hidden dropdown__content text-[14px] flex-col gap-[5px] md:gap-[20px] xll:gap-[10px]">
+                        <a class="hover:opacity-75 opacity-100 duration-200" href="">Shop Single</a>
+                        <a class="hover:opacity-75 opacity-100 duration-200" href="">Service</a>
+                        <a class="hover:opacity-75 opacity-100 duration-200" href="">Service Single</a>
+                        <a class="hover:opacity-75 opacity-100 duration-200" href="">Portfolio</a>
+                        <a class="hover:opacity-75 opacity-100 duration-200" href="">Portfolio Single</a>
+                        <a class="hover:opacity-75 opacity-100 duration-200" href="">Team</a>
+                        <a class="hover:opacity-75 opacity-100 duration-200" href="">Blog</a>
+                        <a class="hover:opacity-75 opacity-100 duration-200" href="">Blog Single</a>
+                        <a class="hover:opacity-75 opacity-100 duration-200" href="">Contact</a>
+                        <a class="hover:opacity-75 opacity-100 duration-200" href="">Changelog</a>
+                        <a class="hover:opacity-75 opacity-100 duration-200" href="">Password Protect</a>
+                      </div>
+                    </li>
+                    <li class="hover:opacity-75 opacity-100 duration-200"><a href="">Shop</a></li>
+                    <li class="hover:opacity-75 opacity-100 duration-200"><a href="">Projects</a></li>
+                    <li class="hover:opacity-75 opacity-100 duration-200"><a href="">News</a></li>
+                  </ul>
+                </div>
+                <div class="flex items-center justify-between xll:justify-start gap-[18px]">
+                  <div class="flex items-center justify-center group relative">
+                    <input
+                      class="border-0 duration-200 focus:border-[#7EB693] !outline-none text-[22px] p-[20px] text-[#274C5B] font-[400] border-white border-[2px] bg-[#FAFAFA] rounded-[36px] w-[150px] md:w-[376px] h-[33px] md:h-[66px] ">
+                    <button
+                      class="w-[33px] md:w-[56px] h-[32px] md:h-[56px] absolute right-[4%] md:right-[2%] text-[16px] md:text-[22px] outline-none rounded-[100%] bg-[#7EB693] text-white"><i
+                        class="ri-search-line"></i></button>
+                  </div>
+                  <div class="hidden lg:flex items-center relative">
+                    <button
+                      class="w-[159px] h-[66px] px-[23px] focus:border-[#274C5B] duration-200 text-right text-[#274C5B] text-[18px] font-[600] border-[#E0E0E0] border-[2px] rounded-[33px]">Cart
+                      (0)</button>
+                    <button
+                      class="w-[56px] h-[56px]  bg-[#274C5B] text-white text-[22px] rounded-[100%] absolute left-[5%]"><i
+                        class="ri-shopping-cart-2-line"></i></button>
+                  </div>
+                </div>
+              </div>
+            </nav>
+    <main class="relative">
+        <p class="absolute left-[50%]  top-[50%] text-[28px] md:text-[50px] font-bold text-[#274C5B] translate-box">About Us</p>
+        <img src="./project/image/lay.png" class="w-full   object-cover h-[350px]" alt="">
+    </main>
+          </header>
+        <section class="pt-[80px] md:pt-[176px] pb-[80px] md:pb-[200px]">
+            <div class="container">
+              <div class="grid pb-[40px] grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xll:grid-cols-4 gap-[20px]">
+                <div
+                  class="p-[20px] card relative flex rounded-[30px] bg-[#F9F8F8] w-full h-[460px] items-center justify-center flex-col">
+                  <button
+                    class="absolute left-[10%] top-[7%] w-[25%] text-white text-[12px] md:text-[15px] rounded-[8px] h-[31px] bg-[#274C5B]">Vegetable</button>
+                  <div class="w-full"><img src="./project/image/Photo-removebg-preview.png"
+                      class="h-[324px] object-contain w-full" alt=""></div>
+                  <div class="text-[#274C5B] font-bold">
+                    <p class="text-[20px] pb-[13px] bordder-b-[#DEDDDD] border-b-[2px]">Calabrese Broccoli</p>
+                    <div class="flex items-center gap-[80px] pt-[9px]">
+                      <div class="flex  items-end gap-[8px]">
+                        <p class="text-[#B8B8B8] font-[600] text-[15px] line-through">$20.00</p>
+                        <p class="text-[18px]">$13.00</p>
+                      </div>
+                      <p class="text-[#FFA858] flex gap-[5px]"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+                          class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="p-[20px] card relative flex rounded-[30px] bg-[#F9F8F8] w-full h-[460px] items-center justify-center flex-col">
+                  <button
+                    class="absolute left-[10%] top-[7%] w-[25%] text-white text-[12px] md:text-[15px] rounded-[8px] h-[31px] bg-[#274C5B]">Vegetable</button>
+                  <div class="w-full"><img src="./project/image/Photo-removebg-preview.png"
+                      class="h-[324px] object-contain w-full" alt=""></div>
+                  <div class="text-[#274C5B] font-bold">
+                    <p class="text-[20px] pb-[13px] bordder-b-[#DEDDDD] border-b-[2px]">Calabrese Broccoli</p>
+                    <div class="flex items-center gap-[80px] pt-[9px]">
+                      <div class="flex  items-end gap-[8px]">
+                        <p class="text-[#B8B8B8] font-[600] text-[15px] line-through">$20.00</p>
+                        <p class="text-[18px]">$13.00</p>
+                      </div>
+                      <p class="text-[#FFA858] flex gap-[5px]"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+                          class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="p-[20px] card relative hidden md:flex rounded-[30px] bg-[#F9F8F8] w-full h-[460px] items-center justify-center flex-col">
+                  <button
+                    class="absolute left-[10%] top-[7%] w-[25%] text-white text-[12px] md:text-[15px] rounded-[8px] h-[31px] bg-[#274C5B]">Vegetable</button>
+                  <div class="w-full"><img src="./project/image/Photo-removebg-preview.png"
+                      class="h-[324px] object-contain w-full" alt=""></div>
+                  <div class="text-[#274C5B] font-bold">
+                    <p class="text-[20px] pb-[13px] bordder-b-[#DEDDDD] border-b-[2px]">Calabrese Broccoli</p>
+                    <div class="flex items-center gap-[80px] pt-[9px]">
+                      <div class="flex  items-end gap-[8px]">
+                        <p class="text-[#B8B8B8] font-[600] text-[15px] line-through">$20.00</p>
+                        <p class="text-[18px]">$13.00</p>
+                      </div>
+                      <p class="text-[#FFA858] flex gap-[5px]"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+                          class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="p-[20px] card relative hidden md:flex rounded-[30px] bg-[#F9F8F8] w-full h-[460px] items-center justify-center flex-col">
+                  <button
+                    class="absolute left-[10%] top-[7%] w-[25%] text-white text-[12px] md:text-[15px] rounded-[8px] h-[31px] bg-[#274C5B]">Vegetable</button>
+                  <div class="w-full"><img src="./project/image/Photo-removebg-preview.png"
+                      class="h-[324px] object-contain w-full" alt=""></div>
+                  <div class="text-[#274C5B] font-bold">
+                    <p class="text-[20px] pb-[13px] bordder-b-[#DEDDDD] border-b-[2px]">Calabrese Broccoli</p>
+                    <div class="flex items-center gap-[80px] pt-[9px]">
+                      <div class="flex  items-end gap-[8px]">
+                        <p class="text-[#B8B8B8] font-[600] text-[15px] line-through">$20.00</p>
+                        <p class="text-[18px]">$13.00</p>
+                      </div>
+                      <p class="text-[#FFA858] flex gap-[5px]"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+                          class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="p-[20px] card relative hidden lg:flex rounded-[30px] bg-[#F9F8F8] w-full h-[460px] items-center justify-center flex-col">
+                  <button
+                    class="absolute left-[10%] top-[7%] w-[25%] text-white text-[12px] md:text-[15px] rounded-[8px] h-[31px] bg-[#274C5B]">Vegetable</button>
+                  <div class="w-full"><img src="./project/image/Photo-removebg-preview.png"
+                      class="h-[324px] object-contain w-full" alt=""></div>
+                  <div class="text-[#274C5B] font-bold">
+                    <p class="text-[20px] pb-[13px] bordder-b-[#DEDDDD] border-b-[2px]">Calabrese Broccoli</p>
+                    <div class="flex items-center gap-[80px] pt-[9px]">
+                      <div class="flex  items-end gap-[8px]">
+                        <p class="text-[#B8B8B8] font-[600] text-[15px] line-through">$20.00</p>
+                        <p class="text-[18px]">$13.00</p>
+                      </div>
+                      <p class="text-[#FFA858] flex gap-[5px]"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+                          class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="p-[20px] card relative hidden lg:flex rounded-[30px] bg-[#F9F8F8] w-full h-[460px] items-center justify-center flex-col">
+                  <button
+                    class="absolute left-[10%] top-[7%] w-[25%] text-white text-[12px] md:text-[15px] rounded-[8px] h-[31px] bg-[#274C5B]">Vegetable</button>
+                  <div class="w-full"><img src="./project/image/Photo-removebg-preview.png"
+                      class="h-[324px] object-contain w-full" alt=""></div>
+                  <div class="text-[#274C5B] font-bold">
+                    <p class="text-[20px] pb-[13px] bordder-b-[#DEDDDD] border-b-[2px]">Calabrese Broccoli</p>
+                    <div class="flex items-center gap-[80px] pt-[9px]">
+                      <div class="flex  items-end gap-[8px]">
+                        <p class="text-[#B8B8B8] font-[600] text-[15px] line-through">$20.00</p>
+                        <p class="text-[18px]">$13.00</p>
+                      </div>
+                      <p class="text-[#FFA858] flex gap-[5px]"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+                          class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="p-[20px] card relative hidden xll:flex rounded-[30px] bg-[#F9F8F8] w-full h-[460px] items-center justify-center flex-col">
+                  <button
+                    class="absolute left-[10%] top-[7%] w-[25%] text-white text-[12px] md:text-[15px] rounded-[8px] h-[31px] bg-[#274C5B]">Vegetable</button>
+                  <div class="w-full"><img src="./project/image/Photo-removebg-preview.png"
+                      class="h-[324px] object-contain w-full" alt=""></div>
+                  <div class="text-[#274C5B] font-bold">
+                    <p class="text-[20px] pb-[13px] bordder-b-[#DEDDDD] border-b-[2px]">Calabrese Broccoli</p>
+                    <div class="flex items-center gap-[80px] pt-[9px]">
+                      <div class="flex  items-end gap-[8px]">
+                        <p class="text-[#B8B8B8] font-[600] text-[15px] line-through">$20.00</p>
+                        <p class="text-[18px]">$13.00</p>
+                      </div>
+                      <p class="text-[#FFA858] flex gap-[5px]"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+                          class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="p-[20px] card relative hidden xll:flex rounded-[30px] bg-[#F9F8F8] w-full h-[460px] items-center justify-center flex-col">
+                  <button
+                    class="absolute left-[10%] top-[7%] w-[25%] text-white text-[12px] md:text-[15px] rounded-[8px] h-[31px] bg-[#274C5B]">Vegetable</button>
+                  <div class="w-full"><img src="./project/image/Photo-removebg-preview.png"
+                      class="h-[324px] object-contain w-full" alt=""></div>
+                  <div class="text-[#274C5B] font-bold">
+                    <p class="text-[20px] pb-[13px] bordder-b-[#DEDDDD] border-b-[2px]">Calabrese Broccoli</p>
+                    <div class="flex items-center gap-[80px] pt-[9px]">
+                      <div class="flex  items-end gap-[8px]">
+                        <p class="text-[#B8B8B8] font-[600] text-[15px] line-through">$20.00</p>
+                        <p class="text-[18px]">$13.00</p>
+                      </div>
+                      <p class="text-[#FFA858] flex gap-[5px]"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+                          class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                class="p-[20px] card relative hidden xll:flex rounded-[30px] bg-[#F9F8F8] w-full h-[460px] items-center justify-center flex-col">
+                <button
+                  class="absolute left-[10%] top-[7%] w-[25%] text-white text-[12px] md:text-[15px] rounded-[8px] h-[31px] bg-[#274C5B]">Vegetable</button>
+                <div class="w-full"><img src="./project/image/Photo-removebg-preview.png"
+                    class="h-[324px] object-contain w-full" alt=""></div>
+                <div class="text-[#274C5B] font-bold">
+                  <p class="text-[20px] pb-[13px] bordder-b-[#DEDDDD] border-b-[2px]">Calabrese Broccoli</p>
+                  <div class="flex items-center gap-[80px] pt-[9px]">
+                    <div class="flex  items-end gap-[8px]">
+                      <p class="text-[#B8B8B8] font-[600] text-[15px] line-through">$20.00</p>
+                      <p class="text-[18px]">$13.00</p>
+                    </div>
+                    <p class="text-[#FFA858] flex gap-[5px]"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+                        class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></p>
+                  </div>
+                </div>
+              </div>
+              <div
+              class="p-[20px] card relative hidden xll:flex rounded-[30px] bg-[#F9F8F8] w-full h-[460px] items-center justify-center flex-col">
+              <button
+                class="absolute left-[10%] top-[7%] w-[25%] text-white text-[12px] md:text-[15px] rounded-[8px] h-[31px] bg-[#274C5B]">Vegetable</button>
+              <div class="w-full"><img src="./project/image/Photo-removebg-preview.png"
+                  class="h-[324px] object-contain w-full" alt=""></div>
+              <div class="text-[#274C5B] font-bold">
+                <p class="text-[20px] pb-[13px] bordder-b-[#DEDDDD] border-b-[2px]">Calabrese Broccoli</p>
+                <div class="flex items-center gap-[80px] pt-[9px]">
+                  <div class="flex  items-end gap-[8px]">
+                    <p class="text-[#B8B8B8] font-[600] text-[15px] line-through">$20.00</p>
+                    <p class="text-[18px]">$13.00</p>
+                  </div>
+                  <p class="text-[#FFA858] flex gap-[5px]"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+                      class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></p>
+                </div>
+              </div>
+            </div>
+            <div
+            class="p-[20px] card relative hidden xll:flex rounded-[30px] bg-[#F9F8F8] w-full h-[460px] items-center justify-center flex-col">
+            <button
+              class="absolute left-[10%] top-[7%] w-[25%] text-white text-[12px] md:text-[15px] rounded-[8px] h-[31px] bg-[#274C5B]">Vegetable</button>
+            <div class="w-full"><img src="./project/image/Photo-removebg-preview.png"
+                class="h-[324px] object-contain w-full" alt=""></div>
+            <div class="text-[#274C5B] font-bold">
+              <p class="text-[20px] pb-[13px] bordder-b-[#DEDDDD] border-b-[2px]">Calabrese Broccoli</p>
+              <div class="flex items-center gap-[80px] pt-[9px]">
+                <div class="flex  items-end gap-[8px]">
+                  <p class="text-[#B8B8B8] font-[600] text-[15px] line-through">$20.00</p>
+                  <p class="text-[18px]">$13.00</p>
+                </div>
+                <p class="text-[#FFA858] flex gap-[5px]"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+                    class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></p>
+              </div>
+            </div>
+          </div>
+          <div
+          class="p-[20px] card relative hidden xll:flex rounded-[30px] bg-[#F9F8F8] w-full h-[460px] items-center justify-center flex-col">
+          <button
+            class="absolute left-[10%] top-[7%] w-[25%] text-white text-[12px] md:text-[15px] rounded-[8px] h-[31px] bg-[#274C5B]">Vegetable</button>
+          <div class="w-full"><img src="./project/image/Photo-removebg-preview.png"
+              class="h-[324px] object-contain w-full" alt=""></div>
+          <div class="text-[#274C5B] font-bold">
+            <p class="text-[20px] pb-[13px] bordder-b-[#DEDDDD] border-b-[2px]">Calabrese Broccoli</p>
+            <div class="flex items-center gap-[80px] pt-[9px]">
+              <div class="flex  items-end gap-[8px]">
+                <p class="text-[#B8B8B8] font-[600] text-[15px] line-through">$20.00</p>
+                <p class="text-[18px]">$13.00</p>
+              </div>
+              <p class="text-[#FFA858] flex gap-[5px]"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+                  class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></p>
+            </div>
+          </div>
+        </div>
+              </div>
+            </div>
+          </section>
+          <section class="pb-[70px]">
+            <div class="container">
+              <div class="flex relative">
+                <img src="./project/image/22.jpg" class="h-[125px] xs:h-[200px] md:h-[300px] object-cover w-full rounded-[30px]"  alt="">
+                <div class="w-[90%] top-[25%] md:top-[25%] lg:top-[35%] xl:top-[30%] left-[5%] flex flex-wrap justify-between gap-[20px] text-white absolute">
+                  <h1 class="text-[28px] hidden md:flex xl:text-[40px] font-[700]">Subscribe to <br>
+                    our Newsletter
+                    </h1>
+                    <div class="flex items-center relative gap-[6px]">
+                      <input type="email" class="border-0 outline-0 text-[14px] sm:text-[18px] text-[#525C60] pl-[23px] pr-[100px] placeholder:text-[14px] sm:placeholder:text-[18px] sm:pr-[120px] py-[18px] rounded-[16px]" placeholder="Your Email Address" name="" id="">
+                      <button class="px-[8px] sm:px-[47px] sm:static absolute right-[1%] top-[6%] duration-200 py-[18px] bg-[#274C5B] text-[12px] sm:text-[18px] rounded-[16px]">Subscribe</button>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </section> 
+    </div>
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    pagination: {
+      el: ".swiper-pagination",
+      dynamicBullets: true,
+    },
+  });
+</script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script>
+  const navBtn = document.querySelector(".nav__btn"),
+    navList = document.querySelector(".nav__list");
+
+  navBtn.addEventListener("click", () => {
+    navList.classList.toggle("nav__list_active");
+  });
+</script>
+</html>
